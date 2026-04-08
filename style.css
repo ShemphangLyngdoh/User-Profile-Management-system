@@ -1,77 +1,29 @@
-*{
-    box-sizing:border-box;
-}
-
 body{
     font-family:sans-serif;
     background:#020617;
     color:white;
     text-align:center;
-    margin:0;
-    padding:0;
 }
 
-/* MAIN CONTAINER */
 .box{
-    width:90%;
-    max-width:400px;
+    width:320px;
     margin:auto;
     margin-top:40px;
-    padding:15px;
 }
 
-/* INPUT + BUTTON */
 input,button{
     width:100%;
-    padding:12px;
-    margin:8px 0;
-    border-radius:6px;
+    padding:10px;
+    margin:6px 0;
+    border-radius:5px;
     border:none;
-    font-size:16px;
 }
 
-/* BUTTON STYLE */
 button{
     background:#38bdf8;
     cursor:pointer;
-    transition:0.3s;
 }
 
 button:hover{
     background:#0ea5e9;
-}
-
-/* HEADING */
-h1{
-    font-size:24px;
-}
-
-/* DASHBOARD TEXT */
-#welcome{
-    font-size:20px;
-    margin-top:10px;
-}
-
-#data{
-    font-size:14px;
-    word-break:break-word;
-}
-
-/* MOBILE OPTIMIZATION */
-@media (max-width: 480px){
-
-    .box{
-        width:95%;
-        margin-top:20px;
-        padding:10px;
-    }
-
-    h1{
-        font-size:20px;
-    }
-
-    input,button{
-        font-size:14px;
-        padding:10px;
-    }
 }
