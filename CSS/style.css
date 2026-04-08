@@ -1,0 +1,29 @@
+body{
+    font-family:sans-serif;
+    background:#020617;
+    color:white;
+    text-align:center;
+}
+
+.box{
+    width:320px;
+    margin:auto;
+    margin-top:40px;
+}
+
+input,button{
+    width:100%;
+    padding:10px;
+    margin:6px 0;
+    border-radius:5px;
+    border:none;
+}
+
+button{
+    background:#38bdf8;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0ea5e9;
+}
